@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DC Cab Fare App</string>
+    <string name="btnCost">Calculate Trip Cost</string>
+    <string name="imgTaxi">Taxi Image</string>
+    <string name="prompt">Select Taxi Type</string>
+    <string name="txtHint">Miles to travel</string>
+    <string name="txtTitle">DC Cab Fare</string>
+    <string-array name="txtTaxiType">
+        <item>Smart Car</item>
+        <item>Sedan</item>
+        <item>Minivan</item>
+    </string-array>
+
+
+    <string name="txtCompany1">Yellow Cab Company of D.C.</string>
+    <string name="txtCompany2">V.I.P. Cab Company</string>
+    <string name="txtCompany3">Taxi Transportation Service</string>
+    
+
+    <string name="imgComp1">Company 1 Image</string>
+    <string name="imgComp2">Company 2 Image</string>
+    <string name="imgComp3">Company 3 Image</string>
+    <string name="txtChoose">Choose from taxi companies below</string>
+    <string name="btnGet">Request Taxi</string>
+</resources>

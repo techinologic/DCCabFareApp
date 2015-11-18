@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.paolotinocencion.dccabfareapp.Results">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtChoose"
+        android:id="@+id/txtChoose"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCompany1"
+        android:id="@+id/txtCompany1"
+        android:layout_below="@+id/txtChoose"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:id="@+id/comp2"
+        android:layout_below="@+id/txtCompany1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/comp2"
+        android:contentDescription="@string/imgComp1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCompany2"
+        android:id="@+id/txtCompany2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/comp1"
+        android:layout_below="@+id/txtCompany2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/comp1"
+        android:contentDescription="@string/imgComp2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCompany3"
+        android:id="@+id/txtCompany3"
+        android:layout_below="@+id/comp1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/txtCompany3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/comp3"
+        android:contentDescription="@string/imgComp3" />
+
+</RelativeLayout>
